@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Contact me footer logo -->
+  <script src="https://kit.fontawesome.com/99aabc3f3f.js" crossorigin="anonymous"></script>
+  <!-- Css link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Title logo -->
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/android-chrome-192x192.png">
+  <title>Ramaya</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class=navbar>
+      <div class="navbar_brand">
+        <img src="assets/logo.png" alt="logo" class="navbar_logo">
+      </div>
+      <div class="navbar_nav_items">
+        <button class="nav_item button_primary">Order Food</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero_container">
+      <div class="hero_img_container">
+        <img src="assets/hero.jpg" alt="hero image" class="hero_img">
+        <img src="assets/svg/heroShape.svg" alt="bg1" class="hero_bg_shape">
+        <img src="assets/svg/herobgpattren.svg" alt="bg2" class="hero_bg_pattern">
+      </div>
+      <div class="hero_description">
+        <h1 class="hero_text"> Order food from favourite restaurants near you.</h1>
+        <button class="button_primary hero_button">Order Food</button>
+      </div>
+    </section>
+
+    <!-- card section -->
+    <section class="cards_section">
+
+      <h1 class="food_card_head">Explore our menu</h1>
+
+      <section class="food_cards">
+
+        <div class="card_bg_gradiant"> </div>
+
+        <div class="food_card_item">
+          <img src="assets/burger.jpg" alt="Burger image" class="card_img">
+          <div class="card_detail">
+            <h3>Burgers</h3>
+            <p class="item_info">Burger King, Mcdonalds, <span style="color:red">+3<span></p>
+            <p> <button>Buy</button> </p>
+          </div>
+        </div>
+
+        <div class="food_card_item" id="pizza_card">
+          <img src="assets/pizza.jpg" alt="pizza image" class="card_img">
+          <div class="card_detail">
+            <h3>Pizza</h3>
+            <p class="item_info">Pizza Hut, Domino's Pizza <span style="color:red">+3<span></p>
+            <p> <button>Buy</button> </p>
+          </div>
+        </div>
+
+        <div class="food_card_item">
+          <img src="assets/iceCream.jpg" alt="ice cream image" class="card_img">
+          <div class="card_detail">
+            <h3>Ice Creams</h3>
+            <p class="item_info">Baskin Robins, Ibaco <span style="color:red">+3<span></p>
+            <p> <button>Buy</button> </p>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="view_more_btn">
+        <h3>View More</h3>
+      </div>
+
+    </section>
+
+    <!-- Hotel section -->
+    <section class="hotel_section">
+      <div class="hotel_section_heading">
+        <h3>Order From 100s of restaurants</h3>
+      </div>
+      <div class="hotels_img">
+        <div class="hotel_img_1 ">
+          <img src="assets/restaurant1.jpg" alt="restaurant Image" class="img-1 H_img">
+        </div>
+        <div class="hotel_img_2 ">
+          <img src="assets/restaurant2.jpg" alt="restaurant Image" class="img-2 H_img">
+        </div>
+        <div class="hotel_img_3 ">
+          <img src="assets/restaurant3.jpg" alt="restaurant Image" class="img-3 H_img">
+        </div>
+        <div class="hotel_img_4">
+          <img src="assets/restaurant4.jpg" alt="restaurant Image" class="img-4 H_img">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Testimonial/Reviews Section -->
+    <section class="Reviews">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5 class="test-h2">"This Webiste gives lots of offer to customer, you should definitely use it ⭐⭐⭐⭐"</h5>
+            <img class="test-img" src="assets/yn.jpeg" alt="">
+            <em>~Yash nayak</em>
+          </div>
+          <div class="carousel-item">
+            <h5 class="test-h2">Food means Ramaya ⭐⭐⭐⭐⭐</h5>
+            <img class="test-img" src="assets/yna.jpg" alt="">
+            <em>~Krishna</em>
+          </div>
+          <div class="carousel-item">
+            <h5 class="test-h2">"Don't buy food from Online, eat home Food ⭐"</h5>
+            <img class="test-img" src="assets/nyn.jpeg" alt="">
+            <em>~Gauranga</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Email me section  -->
+    <section class="email_me">
+      <div class="email_body">
+        <h3 class="email_header">Stay Updated</h3>
+        <input class="email-input" type="email" placeholder="email@email.com" id="emailMe" name="" value="">
+        <button class="button_primary email_btn">Get Updates</button>
+      </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="Quote_section">
+      <div class="quote_bg_img"></div>
+      <div class="quote">
+        <h3>“You don’t need a silver fork to eat good food.”</h3>
+      </div>
+    </section>
+    </main>
+  <footer>
+    <div class="footer_logo">
+      <img src="assets/logo.png" alt="logo">
+    </div>
+    <div class="Contacts">
+      <a class="ftr-logo" href="https://twitter.com/Nayak1703" target="_blank"> <i class="fab ftr-btn fa-twitter"></i></a>
+      <a class="ftr-logo" href="https://www.instagram.com/nayakyash10/" target="_blank"> <i class="fab ftr-btn fa-instagram"></i></a>
+      <a class="ftr-logo" href="https://www.facebook.com/yash.nayak.90813236" target="_blank"> <i class="fab ftr-btn fa-facebook-f"></i></a>
+      <a class="ftr-logo" href="mailto:nayakyash10@gmail.com" target="_blank"> <i class="far ftr-btn fa-envelope"></i></a>
+      <a class="ftr-logo" href="https://www.youtube.com/channel/UCQ2ftOSznZh6xQ7VcNO2hOQ" target="_blank"> <i class="fab ftr-btn fa-youtube"></i></a>
+      <p>© Copyright 2021 Yash Nayak</p>
+    </div>
+
+  </footer>
+  <!-- bootstrap javascript link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
